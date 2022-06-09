@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&family=Questrial&display=swap');
+
+/* Montserrat, Cormorant, and Questrial are the three fonts used, in that order */
+
+.Header {
+    height: 2.5rem;
+    width: 100%;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #282828;
+    border-bottom: 3px solid;
+    border-color: black;
+    text-decoration: none;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.Header a {
+    text-decoration: none;
+  }
+
+.headerItem {
+    height: 100%;
+    line-height: 2.6rem;
+    background-color: #232227;
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    margin-bottom: 10px;
+    padding-left: 1rem;
+    padding-right: .65rem;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    font-variant: small-caps;
+    font-weight: 600;
+    transition-property: color;
+    transition-duration: 2s;
+    letter-spacing: .4rem;
+    color: #D6A83D;
+    border: solid 1px;
+    margin-left: 1vh;
+    margin-right: 1vh;
+}
+
+.headerItem:hover {
+    transition: .25s;
+    color: #ffec00;
+    border-color: #ffec00;
+    cursor:default;
+}
+
+/* Miscellaneous */

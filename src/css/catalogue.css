@@ -1,0 +1,143 @@
+.invArea {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+.coverFrame {
+    margin: 1vw;
+    padding: .25rem;
+    box-sizing: border-box;
+    width: 225px; /*245*/
+    height: 321px; /*350*/
+    border: 4px solid;
+    border-color: black;
+    transition: .25s;
+}
+
+.coverFrame:hover {
+    border-color: #C63D45;
+    transition: .25s;
+    cursor: pointer;
+}
+
+.productFrame {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+}
+
+.subFrame {
+    margin-top: 5%;
+    margin-left: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.subGrid {
+    margin-top: 1.5em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    column-gap: 8em;
+    row-gap: 1em;
+    margin-bottom: 4em;
+}
+
+.productImage {
+    /*height: 455px;*/
+    height: auto;
+    width: 300px;
+    border: solid 2px;
+    border-color: black;
+    margin-left: 10%;
+}
+
+.productInfo {
+    font-family: 'Questrial', sans-serif;
+    font-size: medium;
+    text-align: justify;
+    line-height: 1.2rem;
+    margin-bottom: 1em;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.authorPresents{
+    font-family: 'Questrial', sans-serif;
+    font-weight: 600;
+    font-size: small;
+    text-align: center;
+    margin-bottom: 1.5em;
+    font-variant: small-caps;
+    letter-spacing: 2.5px;
+}
+
+.titleCard {
+    font-family: 'Questrial', sans-serif;
+    font-weight: 600;
+    font-size: x-large;
+    text-align: center;
+    margin-bottom: 1em;
+    font-variant: small-caps;
+    letter-spacing: 4.5px;
+    color: #C63D45;
+}
+
+.digitalOnly {
+    font-family: 'Questrial', sans-serif;
+    font-weight: 600;
+    font-size: small;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.boxItem{
+    font-family: 'Questrial', sans-serif;
+    font-weight: 600;
+    font-size: medium;
+}
+
+b {
+    color: #C63D45;
+    cursor: pointer;
+    font-family: 'Questrial', sans-serif;
+}
+
+.back {
+    border: 2px dotted;
+    padding-left: .5em;
+    padding-right: .5em;
+    letter-spacing: 2px;
+    font-variant: small-caps;
+    cursor: pointer;
+    font-family: 'Montserrat', serif;
+    font-weight: 600;
+    font-size: large;
+}
+
+.disclaimer {
+    color: #C63D45;
+    cursor: pointer;
+    font-family: 'Questrial', sans-serif;
+    font-size: x-small;
+    font-weight: bolder;
+    align-self: center;
+    text-align: center;
+}
+
+.productWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 1;
+}

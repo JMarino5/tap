@@ -1,0 +1,40 @@
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 auto;
+}
+
+.boxWrapper {
+    margin-top: 8vh;
+}
+
+.salesPageWrapper {
+    height: 100%;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.chartWrapper {
+    margin-top: 15vh;
+    align-self: center;
+    height: 500px;
+    width: 500px;
+}
+
+p {
+    font-family: 'Questrial', sans-serif;
+    font-weight: 400;
+    margin-bottom: 0vh;
+    line-height: 25px;
+    text-align: left;
+    margin-top: 5vh;
+}
+
+b {
+    cursor: auto;
+}

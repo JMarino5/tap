@@ -1,0 +1,41 @@
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 auto;
+    height: 100%;
+}
+
+.boxWrapper {
+    margin-top: 8vh;
+}
+
+.splashPageWrapper {
+    min-height: 100%;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.splashPage {
+    margin-top: 5vmin;
+    text-align: justify;
+    font-family: 'Questrial', sans-serif;
+    font-weight:500;
+    font-size: medium;
+    margin-left: 30vmin;
+    margin-right: 30vmin;
+}
+
+p {
+    font-family: 'Questrial', sans-serif;
+    font-weight: 400;
+    margin-bottom: 0vh;
+    line-height: 25px;
+    text-align: left;
+}
+
+b {
+    cursor: auto;
+}

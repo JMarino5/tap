@@ -1,0 +1,70 @@
+.login {
+    margin-top: 10%;
+    height: 100%;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .lContainer {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', serif;
+    font-variant: small-caps;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    border: 3px solid;
+    border-color: black;
+    margin-top: 100px;
+    padding-bottom: 5vh;
+    background-color: #e3e3e3;
+    height: 25%;
+    min-width: 25%;
+  }
+  .login__textBox {
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  input {
+    background-color: #e3e3e3;
+    border: 2px dashed;
+    border-color: black;
+  }
+
+  h3 {
+    font-family: 'Montserrat', serif;
+    text-align: center;
+    letter-spacing: 2px;
+    font-variant: small-caps;
+  }
+
+.lButton {
+  font-family: 'Montserrat', serif;
+  font-weight: 500;
+  width: 2.5em;
+  letter-spacing: 1px;
+  font-variant: small-caps;
+  padding: 10px;
+  border: 2px solid;
+  border-color: black;
+  text-align: center;
+  margin-top: 2.5vh;
+  cursor: pointer;
+}
+
+.lButton:focus {
+  border: 2px solid;
+  border-color: black;
+}
+
+.lButton:active {
+  border: 2px solid;
+  border-color: black;
+  -webkit-box-shadow: inset 0px 0px 15px #c1c1c1;
+     -moz-box-shadow: inset 0px 0px 15px #c1c1c1;
+          box-shadow: inset 0px 0px 15px #c1c1c1;
+   outline: none;
+}
